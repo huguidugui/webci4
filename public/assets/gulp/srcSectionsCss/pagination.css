@@ -1,0 +1,47 @@
+.blog-pagination {
+    color: #7b9bab;
+    border-top: 1px solid var(--morado-dos);
+    border-bottom: 1px solid var(--morado-dos);
+  }
+  
+.blog-pagination ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .blog-pagination li {
+    border: 1px solid white;
+    margin: 0 5px;
+    transition: 0.3s;
+  }
+  
+  .blog-pagination li.active {
+    background: white;
+  }
+  
+  .blog-pagination li a {
+    color: #222;
+    padding: 7px 16px;
+    display: inline-block;
+  }
+  
+ .blog-pagination li.active, .blog .blog-pagination li:hover {
+    background: var(--morado-tres);
+    border: 1px solid var(--morado-dos);
+  }
+  
+  .blog-pagination li.active a, .blog .blog-pagination li:hover a {
+    color: #D4D4D4;
+  }
+  
+  .blog-pagination li.disabled {
+    background: #fff;
+    border: 1px solid white;
+  }
+  
+  .blog-pagination li.disabled i {
+    color: #f1f1f1;
+    padding: 10px 16px;
+    display: inline-block;
+  }

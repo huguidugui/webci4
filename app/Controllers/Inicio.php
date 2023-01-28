@@ -9,8 +9,14 @@ class Inicio extends BaseController
         /* $data = [
             'page_title' => 'Your title',
         ]; */
-        
         return view('headfooter/header')
-               . view('headfooter/footer');
+                    . view('headfooter/menu')
+                    . view('templates/inicio/slider')
+                    . view('templates/main_start')
+                        . view('templates/inicio/habilidades')
+                        . view('templates/inicio/sobre_mi')
+                        . view('templates/inicio/blog_inicio')
+                    . view('templates/main_end')
+                    . view('headfooter/footer');
     }
 }
