@@ -15,12 +15,17 @@ class Inicio extends BaseController
         echo "</pre>";  */
         return view('headfooter/header')
                 . view('headfooter/menu')
-                . view('headfooter/footer');
-                    /* . view('templates/inicio/slider')
-                    . view('templates/main_start')
-                        . view('templates/inicio/habilidades')
-                        . view('templates/inicio/sobre_mi')
+                . view('templates/inicio/slider')
+                  . view('templates/main_start')
+                    . view('templates/inicio/habilidades')
+                    . view('templates/inicio/sobre_mi')
+                  . view('templates/main_end')
+               . view('headfooter/footer');
+                /* 
+                    
+                        
+                        
                         . view('templates/inicio/blog_inicio')
-                    . view('templates/main_end') */
+                     */
     }
 }
