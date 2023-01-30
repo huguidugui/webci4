@@ -19,6 +19,10 @@
           <a href="<?php echo base_url(); ?>">
           <?php echo lang('Web.menu_inicio'); ?></a>
         </li>
+        <li class="active">
+          <a href="<?php echo base_url(); ?>/contacto">
+          <?php echo lang('Web.menu_contacto'); ?></a>
+        </li>
         <li> 
           <a  
              href="<?php echo base_url(); ?>/es"
